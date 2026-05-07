@@ -45,7 +45,7 @@ namespace HTMLQuestPDF.Components
             }
 
             // Apply inline CSS styles if present
-            var styleAttr = node.GetAttributeValue("style", null);
+            var styleAttr = node.GetAttributeValue("style", string.Empty);
             if (!string.IsNullOrEmpty(styleAttr))
             {
                 var cssStyles = CssParser.ParseStyleAttribute(styleAttr);

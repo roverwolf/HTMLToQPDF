@@ -42,7 +42,7 @@ For full changelog see: https://github.com/JeremyVm/HTMLToQPDF/blob/master/CHANG
 
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
-    <PackageReference Include="QuestPDF" Version="2025.12.3" />
+    <PackageReference Include="QuestPDF" Version="2026.2.4" />
   </ItemGroup>
 
   <ItemGroup>

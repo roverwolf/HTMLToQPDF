@@ -498,6 +498,7 @@ namespace HTMLQuestPDF.Utils
                 "center" => container.AlignCenter(),
                 "right" => container.AlignRight(),
                 "left" => container.AlignLeft(),
+                "justify" => container,
                 _ => container
             };
         }

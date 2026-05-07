@@ -20,7 +20,7 @@ namespace HTMLQuestPDF.Components.Tags
         protected override IContainer ApplyStyles(IContainer container)
         {
             // Apply any inline styles
-            var styleAttr = node.GetAttributeValue("style", null);
+            var styleAttr = node.GetAttributeValue("style", string.Empty);
             var cssStyles = CssParser.ParseStyleAttribute(styleAttr);
 
             // Default blockquote styling: left border, padding, and slight background

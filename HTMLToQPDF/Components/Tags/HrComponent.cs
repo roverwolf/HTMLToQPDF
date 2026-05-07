@@ -24,7 +24,7 @@ namespace HTMLQuestPDF.Components.Tags
         public void Compose(IContainer container)
         {
             // Apply any inline styles
-            var styleAttr = node.GetAttributeValue("style", null);
+            var styleAttr = node.GetAttributeValue("style", string.Empty);
             var cssStyles = CssParser.ParseStyleAttribute(styleAttr);
 
             // Default styling
