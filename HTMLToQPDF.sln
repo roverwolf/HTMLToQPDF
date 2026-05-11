@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLToQPDF", "HTMLToQPDF\HT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLToQPDF.Example", "HTMLToQPDF.Example\HTMLToQPDF.Example.csproj", "{EADB2A0E-2D7C-47AB-8AC4-189700FA1EE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLToQPDF.Cli", "HTMLToQPDF.Cli\HTMLToQPDF.Cli.csproj", "{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{2D491C66-3700-4CF4-B936-231569AA08F0}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -27,6 +29,10 @@ Global
 		{EADB2A0E-2D7C-47AB-8AC4-189700FA1EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADB2A0E-2D7C-47AB-8AC4-189700FA1EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADB2A0E-2D7C-47AB-8AC4-189700FA1EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
