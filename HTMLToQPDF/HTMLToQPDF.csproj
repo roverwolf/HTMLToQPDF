@@ -1,33 +1,34 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Title>QuestPDF.HTML</Title>
+    <Title>PCG.QuestPDF.HTML</Title>
     <Company></Company>
-    <Authors>Relorer, JeremyVm</Authors>
+    <Authors>Relorer, JeremyVm, versiglobal, roverwolf</Authors>
     <Description>
         QuestPDF.HTML is an extension for QuestPDF that allows to generate PDF from HTML. 
         Originally created by Relorer (https://github.com/Relorer/HTMLToQPDF).
     </Description>
-    <PackageProjectUrl>https://github.com/JeremyVm/HTMLToQPDF</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/roverwolf/HTMLToQPDF</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageId>QuestPDF.HTML</PackageId>
+    <PackageId>PCG.HTMLToQPDF</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/JeremyVm/HTMLToQPDF</RepositoryUrl>
+    <RepositoryUrl>https://github.com/roverwolf/HTMLToQPDF</RepositoryUrl>
     <PackageTags>pdf, file, export, generate, generation, tool, create, creation, render, document, format, quest, html, library, converter, open, source, free, standard, core</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.5.0</AssemblyVersion>
-    <FileVersion>1.5.0</FileVersion>
-    <Version>1.5.0</Version>
+    <AssemblyVersion>1.5.1</AssemblyVersion>
+    <FileVersion>1.5.1</FileVersion>
+    <Version>1.5.1</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReleaseNotes>
-v1.5.0:
-- Added new HTML tags: span, blockquote, pre, code, hr, mark, abbr, kbd, samp, var, q
-- Added CSS inline style parsing support for text and container properties
-- Supported CSS properties: color, background-color, font-size, font-weight, font-style, font-family, text-decoration, padding, margin, border, width, height, text-align
-- Supported color formats: hex, rgb(), rgba(), named colors
-- Supported length units: px, pt, em, rem, cm, mm, in, %
+v1.5.1:
+- Fix to trim the end of the LAST node instead of the first
+- Upgrade version of QuestPDF used
+- Add a CLI
+- Apply some changes from the verisglobal fork
+- Start with the JeremyVm fork
 
 For full changelog see: https://github.com/JeremyVm/HTMLToQPDF/blob/master/CHANGELOG.md
     </PackageReleaseNotes>
