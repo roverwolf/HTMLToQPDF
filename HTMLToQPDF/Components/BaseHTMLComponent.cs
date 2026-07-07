@@ -66,7 +66,7 @@ namespace HTMLQuestPDF.Components
                 var buffer = new List<HtmlNode>();
                 foreach (var item in node.ChildNodes)
                 {
-                    if (item.IsBlockNode() || item.HasBlockElement())
+                    if (item.IsBlockNode() || item.HasBlockElement() || item.IsImg())
                     {
                         ComposeMany(col, buffer);
                         buffer.Clear();

@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFi
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLToQPDF.Tests", "HTMLToQPDF.Tests\HTMLToQPDF.Tests.csproj", "{6AD47BDC-2190-4B35-B257-1640FB1E48D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ec1ba3b1-bcc4-41a6-aa27-c1ee153ae237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD47BDC-2190-4B35-B257-1640FB1E48D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD47BDC-2190-4B35-B257-1640FB1E48D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD47BDC-2190-4B35-B257-1640FB1E48D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD47BDC-2190-4B35-B257-1640FB1E48D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

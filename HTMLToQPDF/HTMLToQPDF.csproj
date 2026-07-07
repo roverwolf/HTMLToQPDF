@@ -18,11 +18,14 @@
     <RepositoryUrl>https://github.com/roverwolf/HTMLToQPDF</RepositoryUrl>
     <PackageTags>pdf, file, export, generate, generation, tool, create, creation, render, document, format, quest, html, library, converter, open, source, free, standard, core</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.5.1</AssemblyVersion>
-    <FileVersion>1.5.1</FileVersion>
-    <Version>1.5.1</Version>
+    <AssemblyVersion>1.5.2</AssemblyVersion>
+    <FileVersion>1.5.2</FileVersion>
+    <Version>1.5.2</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReleaseNotes>
+v1.5.2:
+- Fix multiple img elements in the same parent not rendering (flush inline buffer before each img)
+
 v1.5.1:
 - Fix to trim the end of the LAST node instead of the first
 - Upgrade version of QuestPDF used

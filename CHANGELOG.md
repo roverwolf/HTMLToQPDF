@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.2] - 2026-07-07
+
+### Fixed
+
+- Multiple `<img>` elements in the same parent now render correctly. Previously, only a single image per inline buffer was routed to `ImgComponent`; additional images were silently dropped by `ParagraphComponent`.
+
 ## [1.5.0] - 2025-02-06
 
 ### Added
