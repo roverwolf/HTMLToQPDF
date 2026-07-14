@@ -18,11 +18,16 @@
     <RepositoryUrl>https://github.com/roverwolf/HTMLToQPDF</RepositoryUrl>
     <PackageTags>pdf, file, export, generate, generation, tool, create, creation, render, document, format, quest, html, library, converter, open, source, free, standard, core</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.5.2</AssemblyVersion>
-    <FileVersion>1.5.2</FileVersion>
-    <Version>1.5.2</Version>
+    <AssemblyVersion>1.5.3</AssemblyVersion>
+    <FileVersion>1.5.3</FileVersion>
+    <Version>1.5.3</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReleaseNotes>
+v1.5.3:
+- Fix images near page bottom shrinking into leftover space (AspectRatio FitWidth pages instead)
+- Cap very tall images so they scale instead of throwing DocumentLayoutException
+- Honor HTML img width/height attributes as max display size (matches CKEditor/UI)
+
 v1.5.2:
 - Fix multiple img elements in the same parent not rendering (flush inline buffer before each img)
 
@@ -47,6 +52,10 @@ For full changelog see: https://github.com/JeremyVm/HTMLToQPDF/blob/master/CHANG
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
     <PackageReference Include="QuestPDF" Version="2026.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="HTMLToQPDF.Tests" />
   </ItemGroup>
 
   <ItemGroup>

@@ -34,7 +34,7 @@ namespace HTMLToQPDF.Example.Utilities
                              {
                                  handler.SetTextStyleForHtmlElement("h1", TextStyle.Default.FontColor(Colors.DeepOrange.Accent4).FontSize(32).Bold());
                                  handler.SetContainerStyleForHtmlElement("div", c => c.Background(Colors.Teal.Lighten5));
-                                 handler.SetContainerStyleForHtmlElement("img", c => c.MaxHeight(7, Unit.Centimetre));
+                                 handler.SetContainerStyleForHtmlElement("img", c => c.MaxWidth(12, Unit.Centimetre));
                                  handler.SetContainerStyleForHtmlElement("table", c => c.Background(Colors.Pink.Lighten5));
                                  handler.SetListVerticalPadding(40);
                              }

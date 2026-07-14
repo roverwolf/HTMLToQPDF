@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.3] - 2026-07-14
+
+### Fixed
+
+- Images near the bottom of a page no longer shrink into leftover space. Images now use `AspectRatio(FitWidth)` so the column moves them to the next page instead of `FitArea` squeezing them into a thin strip.
+- Very tall images are capped so they scale down instead of throwing `DocumentLayoutException`.
+- HTML `width` / `height` attributes on `<img>` are honored as maximum display size (CSS px → pt), matching CKEditor/UI sizing so images no longer stretch to full page width.
+
+### Changed
+
+- Example custom style for `img` uses `MaxWidth` instead of `MaxHeight` (compatible with width-based sizing). Prefer `MaxWidth` over `MaxHeight` when constraining images.
+
 ## [1.5.2] - 2026-07-07
 
 ### Fixed
